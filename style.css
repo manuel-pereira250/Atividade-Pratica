@@ -1,6 +1,94 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+.section-carrossel {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: min(20vh, 6rem);
+}
+.div-carrossel-top {
+    text-align: center;
+}
+
+.div-carrossel-top h2 {
+    font-size: 3em;
+}
+.div-carrossel-top p {
+    font-size: 1rem;
+
+}
+
+.carrossel {
+    display: flex;
     
+}
+.carrossel-div img {
+    height: 25rem;
+    
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    padding: min(20vh, 6rem);
+}
+.section-3 h2 {
+    font-size: 2em;
+}
+.div-section-3 {
+    margin-right: 10em;
+}
+.section-3 img {
+    height: 50rem;
+}
+
+.sec-a {
+    color: black;
+}
+
+
+.section-4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: min(20vh, 6rem);
+}
+
+.section-4  h2{
+    font-size: 2em;
+}
+
+.div-section-4 {
+    margin-left: 5em;
+}
+.section-4 img {
+    height: 30rem;
+}
+
+.section-final {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: min(20vh, 6rem);
+}
+
+.section-final h2 {
+    font-size: 3em;
+}
+
+.section-final p {
+    text-align: left;
 }
 
