@@ -91,4 +91,30 @@ html {
 .section-final p {
     text-align: left;
 }
+.section-final a button {
+    background-color: black;
+    color: white;
+    height: 3em;
+    
+}
 
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 2em;
+    
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.div-i i {
+    margin-left: 1rem;
+    font-size: 1.5em;
+    color: black;
+}
