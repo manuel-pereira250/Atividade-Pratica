@@ -9,6 +9,29 @@ html {
     width: 100%;
     height: 100vh;
 }
+.section-top {
+    display: flex;
+    padding: min(20vh, 6rem);
+}
+.section-top a {
+    text-decoration: none;
+    color: black;
+}
+.section-top a:hover {
+    color: rgb(255, 0, 0);
+    transition: all;
+}
+.div-img img {
+    height: 30rem;
+}
+.div-top h1 {
+    font-size: 2em;
+    
+}
+.div-top p {
+    font-size: 1em;
+}
+
 .section-carrossel {
     display: flex;
     display: flex;
@@ -21,20 +44,17 @@ html {
 }
 
 .div-carrossel-top h2 {
-    font-size: 3em;
+    font-size: 2rem;
 }
 .div-carrossel-top p {
     font-size: 1rem;
-
 }
 
 .carrossel {
     display: flex;
-    
 }
 .carrossel-div img {
-    height: 25rem;
-    
+    height: 15rem;
 }
 
 .section-3 {
@@ -51,7 +71,7 @@ html {
     margin-right: 10em;
 }
 .section-3 img {
-    height: 50rem;
+    height: 35rem;
 }
 
 .sec-a {
@@ -74,7 +94,7 @@ html {
     margin-left: 5em;
 }
 .section-4 img {
-    height: 30rem;
+    height: 18rem;
 }
 
 .section-final {
@@ -95,7 +115,7 @@ html {
     background-color: black;
     color: white;
     height: 3em;
-    
+    width: 5em;
 }
 
 footer {
@@ -106,7 +126,6 @@ footer {
 footer nav ul {
     display: flex;
     gap: 2em;
-    
 }
 footer nav ul li a {
     text-decoration: none;
@@ -117,4 +136,8 @@ footer nav ul li a {
     margin-left: 1rem;
     font-size: 1.5em;
     color: black;
+}
+
+@media (max-width:830px) {
+
 }
